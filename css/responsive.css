@@ -1,0 +1,49 @@
+@media screen and (min-width: 480px) {
+	
+
+
+	/**********************************
+	MOBILE-2
+	***********************************/
+	.iv-embed {
+		width:482px;
+	}
+
+	.frame-1 {
+		display: none;
+	}
+
+	.frame-2 {
+		display: block;
+	}
+
+	.frame-3 {
+		display: none;
+	}
+}
+
+
+@media screen and (min-width: 660px) {
+		
+
+
+	/**********************************
+	DESKTOP
+	***********************************/
+	.iv-embed {
+		width:642px;
+	}
+
+	.frame-1 {
+		display: block;
+	}
+
+	.frame-2 {
+		display: none;
+	}
+
+	.frame-3 {
+		display: none;
+	}
+
+}

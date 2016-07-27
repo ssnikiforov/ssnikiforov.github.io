@@ -1,0 +1,38 @@
+/**********************************
+GENERAL
+***********************************/
+ 
+.iv-embed {
+	margin:0 auto;
+	padding:0;
+	border:0;
+	// width:642px;
+	width:322px;
+}
+
+.iv-v {
+	// display:block;
+	margin:0;
+	padding:1px;
+	border:0;
+	background:#000;
+}
+
+.iv-i {
+	// display:block;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.frame-1 {
+	display: none;
+}
+
+.frame-2 {
+	display: none;
+}
+
+.frame-3 {
+	display: block;
+}
