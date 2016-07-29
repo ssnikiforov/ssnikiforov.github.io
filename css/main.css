@@ -2,6 +2,93 @@
 GENERAL
 ***********************************/
  
+body {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+header {
+	float: left; /*for styling desktop layout*/
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%; /*because floated, we must specify a width*/
+}
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/* green header */
+header {
+	background: #6ab47b;
+	border-color: #599a68;
+}
+
+/* nav background on mobile */
+nav {
+	background: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+	color: #fff;
+}
+
+/* links */
+a {
+	color: #6ab47b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #32673f;
+}
+
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+
+}
+
+
+/**********************************
+VIDEO-FRAMES
+***********************************/
+
 .iv-embed {
 	margin:0 auto;
 	padding:0;
