@@ -3,7 +3,7 @@ GENERAL
 ***********************************/
  
 body {
-	font-family: 'Fira Sans', sans-serif;
+	font-family: Arial, sans-serif;
 }
 
 a {
@@ -93,12 +93,10 @@ VIDEO-FRAMES
 	margin:0 auto;
 	padding:0;
 	border:0;
-	// width:642px;
 	width:322px;
 }
 
 .iv-v {
-	// display:block;
 	margin:0;
 	padding:1px;
 	border:0;
@@ -106,7 +104,6 @@ VIDEO-FRAMES
 }
 
 .iv-i {
-	// display:block;
 	margin:0;
 	padding:0;
 	border:0;
