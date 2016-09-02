@@ -1,49 +1,80 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 520px) {
 	
+	iframe,
+	.preview-wrapper img {
+		width: 480px;
+		height: 298px;
+	}
 
+	#logo {
+		margin-right: 5px;
+		display: inline-block;
+		float: left;
+		padding: 10px 10px;
+	}
+
+	nav {
+		float: right;
+		margin: 0 auto;
+	}
+
+	header {
+		display: inline-block;
+		text-align: left;
+		vertical-align: bottom;
+	}
+
+	nav a {
+		padding: 5px;
+	}
+
+	li {
+		padding-top: 21px;
+	}
+
+
+@media screen and (min-width: 680px) {
+	
+	iframe,
+	.emb-prev img {
+		width: 640px;
+		height: 398px;
+	}
+
+	#logo {
+		margin-left: 30px;
+	}
+
+	nav {
+		margin-right: 30px;
+	}
+
+@media screen and (min-width: 1080px) {
+	
+	.preview-wrapper {
+		width: 95%;
+	}
+
+	iframe,
+	.preview-wrapper img {
+		width: 480px;
+		height: 298px;
+	}
 
 	/**********************************
-	MOBILE-2
+	index.html : COLUMNS
 	***********************************/
-	.iv-embed {
-		width:482px;
+	.preview-wrapper {
+		max-width: 1000px;
 	}
 
-	.frame-1 {
-		display: none;
+	.col {
+		float: left;
+		width: 49%;
+		margin-bottom: 10px;
 	}
 
-	.frame-2 {
-		display: block;
+	.col:nth-child(2n+1) {
+		margin-right: 2%;
 	}
-
-	.frame-3 {
-		display: none;
-	}
-}
-
-
-@media screen and (min-width: 660px) {
-		
-
-
-	/**********************************
-	DESKTOP
-	***********************************/
-	.iv-embed {
-		width:642px;
-	}
-
-	.frame-1 {
-		display: block;
-	}
-
-	.frame-2 {
-		display: none;
-	}
-
-	.frame-3 {
-		display: none;
-	}
-
 }

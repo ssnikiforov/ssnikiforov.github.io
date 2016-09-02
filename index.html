@@ -5,51 +5,78 @@
 	<title>Innokids Video</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
-	<header>
+	<!-- <header class="container">
+		<a id="logo" href="index.html"><img src="img/logo.svg" alt="innokids" height="50px"></a>
 		<nav>
 			<ul>
-				<li><a href="index.html" title="" class="selected">Вход</a></li>
+				<li><a href="rpoint-ch1.html" class="selected">Вход</a></li>
 				<li><a href="rpoint-ch2.html">Комната 1</a></li>
 				<li><a href="rpoint-ch3.html">Комната 2</a></li>
 				<li><a href="rpoint-ch4.html">Коридор</a></li>
 			</ul>
 		</nav>
-	</header>
-	<div class="iv-embed emb-1">
-		<div class="iv-v frame-1">
-			<iframe class="iv-i frame-1" 
-				src="https://open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&amp;camera=327680&amp;width=&amp;height=&amp;lang=ru" 
-				width="640" 
-				height="398" 
-				frameborder="0" allowfullscreen>
-			</iframe>
+	</header> -->
+	
+	
+
+	<div class="preview-wrapper">
+		<div class="col1 col clearfix">
+			<a class="emba" href="#">
+				<div class="emb-prev">
+					<span class="play-btn"> </span>
+					<img src="https://streaming.ivideon.com/preview/live?server=100-e9bbe8d43447648a9f679f0b724824e6&amp;camera=327680&amp;sessionId=demo&amp;q=2" alt="Image from channel 1">
+				</div>
+			</a>
+			<iframe class="embframe" src="https://open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=327680&width=&height=&lang=ru"></iframe>
+		</div>
+
+		<div class="col2 col clearfix">
+			<a class="emba" href="#">
+				<div class="emb-prev">
+					<span class="play-btn"> </span>
+					<img src="https://streaming.ivideon.com/preview/live?server=100-e9bbe8d43447648a9f679f0b724824e6&amp;camera=393216&amp;sessionId=demo&amp;q=2" alt="Image from channel 2">
+				</div>
+			</a>
+			<iframe class="embframe" src="https://open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=393216&width=&height=&lang=ru"></iframe>
+		</div>
+
+		<div class="col3 col clearfix">
+			<a class="emba" href="#">
+				<div class="emb-prev">
+					<span class="play-btn"> </span>
+					<img src="https://streaming.ivideon.com/preview/live?server=100-e9bbe8d43447648a9f679f0b724824e6&amp;camera=458752&amp;sessionId=demo&amp;q=2" alt="Image from channel 3">
+				</div>
+			</a>
+			<iframe class="embframe" src="https://open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=458752&width=&height=&lang=ru"></iframe>
+		</div>
+
+		<div class="col4 col clearfix">
+			<a class="emba" href="#">
+				<div class="emb-prev">
+					<span class="play-btn"> </span>
+					<img src="https://streaming.ivideon.com/preview/live?server=100-e9bbe8d43447648a9f679f0b724824e6&amp;camera=524288&amp;sessionId=demo&amp;q=2" alt="Image from channel 4">
+			</a>
+			<iframe class="embframe" src="https://open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=524288&width=&height=&lang=ru"></iframe>
 		</div>
 	</div>
 
-	<div class="iv-embed emb-2">
-		<div class="iv-v frame-2">
-			<iframe class="iv-i frame-2" 
-				src="https://open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&amp;camera=327680&amp;width=&amp;height=&amp;lang=ru" 
-				width="480" 
-				height="298" 
-				frameborder="0" allowfullscreen>
-			</iframe>
-		</div>
-	</div>
+	<footer class="footer">
+		<p> Copyright &copy; 2016 </p>
+	</footer>
 
-
-	<div class="iv-embed emb-3">
-		<div class="iv-v frame-3">
-			<iframe class="iv-i frame-3" 
-				src="https://open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&amp;camera=327680&amp;width=&amp;height=&amp;lang=ru" 
-				width="320" 
-				height="199" 
-				frameborder="0" allowfullscreen>
-			</iframe>
-		</div>
-	</div>
+	<script src="js/main.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
