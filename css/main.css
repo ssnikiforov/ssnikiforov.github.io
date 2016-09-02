@@ -44,6 +44,10 @@ nav a, nav a:visited {
 /* selected nav link */
 nav a.selected, nav a:hover {
 	color: #fff;
+} 
+
+.col img {
+	opacity: 0.6;
 }
 
 
@@ -108,7 +112,8 @@ CONTAINER: PREVIEW-WRAPPER
 }
 
 iframe, 
-.preview-wrapper img {
+.preview-wrapper img,
+.col img {
 	width: 320px;
 	height: 199px;
 }

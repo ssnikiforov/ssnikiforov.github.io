@@ -27,7 +27,8 @@
 	}
 
 	iframe,
-	.preview-wrapper img {
+	.preview-wrapper img,
+	.col img {
 		width: 480px;
 		height: 298px;
 	}
@@ -44,7 +45,8 @@
 	}
 
 	iframe,
-	.emb-prev img {
+	.emb-prev img,
+	.col img {
 		width: 640px;
 		height: 398px;
 	}
@@ -57,7 +59,8 @@
 	}
 
 	iframe,
-	.preview-wrapper img {
+	.preview-wrapper img,
+	.col img {
 		width: 480px;
 		height: 298px;
 	}
