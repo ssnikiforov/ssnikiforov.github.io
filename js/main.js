@@ -1,18 +1,28 @@
+var $ifr1 = $('<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=327680&width=&height=&lang=ru&ap=&noibw="></iframe>');
+var $ifr2 = $('<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=393216&width=&height=&lang=ru&ap=&noibw="></iframe>');
+var $ifr3 = $('<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=458752&width=&height=&lang=ru&ap=&noibw="></iframe>');
+var $ifr4 = $('<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=524288&width=&height=&lang=ru&ap=&noibw="></iframe>');
+var $ifrReplaced;
 $(".emba").click(function(event){
 	event.preventDefault();
 			
 	$(this).replaceWith(function() {
 		if ($(this).parent().hasClass("col1")) {
-			return '<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=327680&width=&height=&lang=ru"></iframe>';	
+			$ifrReplaced = $ifr1;
+			console.log($ifrReplaced);
+			return $ifrReplaced;	
 		}
 		else if ($(this).parent().hasClass("col2")) {
-			return '<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=393216&width=&height=&lang=ru"></iframe>';	
+			$ifrReplaced = $ifr2;
+			return $ifrReplaced;	
 		}
 		else if ($(this).parent().hasClass("col3")) {
-			return '<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=458752&width=&height=&lang=ru"></iframe>';	
+			$ifrReplaced = $ifr3;
+			return $ifrReplaced;	
 		}
 		else {
-			return '<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2/?server=100-e9bbe8d43447648a9f679f0b724824e6&camera=524288&width=&height=&lang=ru"></iframe>';	
+			$ifrReplaced = $ifr4;
+			return $ifrReplaced;	
 		}
 	})
 })

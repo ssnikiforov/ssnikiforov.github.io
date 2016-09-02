@@ -1,9 +1,9 @@
 @media screen and (min-width: 520px) {
-	
-	iframe,
-	.preview-wrapper img {
-		width: 480px;
-		height: 298px;
+
+	header {
+		display: inline-block;
+		text-align: left;
+		vertical-align: bottom;
 	}
 
 	#logo {
@@ -18,28 +18,22 @@
 		margin: 0 auto;
 	}
 
-	header {
-		display: inline-block;
-		text-align: left;
-		vertical-align: bottom;
-	}
-
 	nav a {
 		padding: 5px;
 	}
 
-	li {
+	nav li {
 		padding-top: 21px;
+	}
+
+	iframe,
+	.preview-wrapper img {
+		width: 480px;
+		height: 298px;
 	}
 
 
 @media screen and (min-width: 680px) {
-	
-	iframe,
-	.emb-prev img {
-		width: 640px;
-		height: 398px;
-	}
 
 	#logo {
 		margin-left: 30px;
@@ -49,10 +43,17 @@
 		margin-right: 30px;
 	}
 
+	iframe,
+	.emb-prev img {
+		width: 640px;
+		height: 398px;
+	}
+
 @media screen and (min-width: 1080px) {
 	
 	.preview-wrapper {
 		width: 95%;
+		max-width: 1000px;
 	}
 
 	iframe,
@@ -62,11 +63,8 @@
 	}
 
 	/**********************************
-	index.html : COLUMNS
+	COLUMNS
 	***********************************/
-	.preview-wrapper {
-		max-width: 1000px;
-	}
 
 	.col {
 		float: left;
