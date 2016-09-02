@@ -4,6 +4,8 @@ GENERAL
 
 * {
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 body {
@@ -133,7 +135,7 @@ iframe,
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: 50% 64% url('../img/embed_play_button.png') no-repeat / 18%;
+	background: url('../img/embed_play_button.png') 50% 64% / 18% no-repeat ;
 }
 
 
