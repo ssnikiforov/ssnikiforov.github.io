@@ -21,7 +21,7 @@ $(".emba").click(function(event){
 		}
 		else if ($(this).parent().hasClass("col2")) {
 			$ifrReplaced = $ifr2;
-			return $ifrReplaced;	
+			return $ifrReplaced;	n
 		}
 		else if ($(this).parent().hasClass("col3")) {
 			$ifrReplaced = $ifr3;
