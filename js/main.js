@@ -5,11 +5,11 @@ var $ifr4 = $('<iframe class="embframe" src="https:\/\/open.ivideon.com/embed/v2
 var $ifrReplaced;
 var dummyImage = '<img src="img/pereryv.png" alt="Страница временно недоступна">';
 
-var $temp = $("img").on("error", function(){
-		$(this).parents("a").replaceWith(function() {
-			return dummyImage;
-		});
-});
+// var $temp = $("img").on("error", function(){
+// 		$(this).parents("a").replaceWith(function() {
+// 			return dummyImage;
+// 		});
+// });
 
 $(".emba").click(function(event){
 	event.preventDefault();
