@@ -13,34 +13,25 @@
     <nav class="main-nav" aria-label="Основное меню" itemscope="itemscope" itemtype="http://www.schema.org/SiteNavigationElement">
       <button class="main-nav__toggle main-nav__toggle--expand" type="button">Открыть меню</button>
       <div class="main-nav__dropdown">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list">
-            <a class="site-list__link site-list__link--active" href="index.html">Главная</a>
+        <ul class="main-nav__list dropdown-list">
+          <li class="dropdown-list__item">
+            <a class="dropdown-list__link dropdown-list__link--active" href="#">Главная</a>
           </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="catalog.html">Каталог товаров</a>
+          <li class="dropdown-list__item">
+            <a class="dropdown-list__link" href="catalog.html">Каталог товаров</a>
           </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="#">Вязание на заказ</a>
+          <li class="dropdown-list__item">
+            <a class="dropdown-list__link" href="form.html">Вязание на заказ</a>
           </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="#">
-              <span class="site-list__icon site-list__icon--search"></span>
-              <div class="site-list__search search-top">
-                <span class="search-top__cover search-top__cover--visible">Поиск по сайту</span>
-                <div class="search-top__item search-top__item--hidden">
-                  <form class="search-top__form form search-form" action="https://echo.htmlacademy.ru" method="get" id="search-form-top">
-                    <input class="search-form__field form__text" type="text" id="query" name="query">
-                    <label class="search-form__label" for="query"></label>
-                    <input class="search-form__field form__submit" type="submit" id="search" name="search" value="Искать">
-                  </form>
-                </div>
-              </div>
+          <li class="dropdown-list__item">
+            <a class="dropdown-list__link" href="#">
+              <span class="dropdown-list__icon dropdown-list__icon--search"></span>
+              <span class="search-top__cover search-top__cover--visible">Поиск по сайту</span>
             </a>
           </li>
-          <li class="site-list__item">
-            <a class="site-list__link" href="#">
-              <span class="site-list__icon site-list__icon--cart"></span>Корзина: пока пуста</a>
+          <li class="dropdown-list__item">
+            <a class="dropdown-list__link" href="#">
+              <span class="dropdown-list__icon dropdown-list__icon--cart"></span>Корзина: пока пуста</a>
           </li>
         </ul>
         <ul class="main-nav__list user-list">
