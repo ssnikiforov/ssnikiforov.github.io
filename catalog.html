@@ -6,7 +6,7 @@
 </head>
 <body>
 <header class="page-header">
-  <div class="wrapper">
+  <div class="container">
     <a class="page-header__logo" href="index.html">
       <img class="page-header__logo-image" src="http://placehold.it/86x35" width="86" height="35" alt="Магазин Мишка">
     </a>
@@ -49,14 +49,13 @@
   </div>
 </header>
 <main class="page-content">
-  <div class="wrapper">
+  <div class="container">
     <header class="page-content__header page-header">
       <div class="page-header__wrapper">
         <h1 class="page-header__header">Каталог товаров</h1>
       </div>
     </header>
     <section class="page-content__section catalog">
-      <div class="wrapper">
         <ul class="catalog__list">
           <li class="catalog__item product-description">
             <div class="product-description__header">
@@ -153,7 +152,7 @@
   </div>
 </main>
 <footer class="page-footer">
-  <div class="wrapper">
+  <div class="container">
     <!--Нам нужен блок social потому что футеры сейчас обычно делают сложными и большими, а не такими, как на макете этого учебного проекта. И если page-footer будет состоять из 3+ блоков - я считаю это нормальным. Поправьте, если не прав-->
     <div class="page-footer__social social">
       <h2 class="social__header visually-hidden">Мы в социальных сетях</h2>
@@ -184,23 +183,25 @@
   </div>
 </footer>
 <div class="modal modal--hidden">
-  <h4 class="modal__header">ДОБАВИТЬ В КОРЗИНУ</h4>
-  <div class="modal__body">
-    <p class="modal__text-action">Выберите размер</p>
-    <ul class="modal__list sizes-list">
-      <li class="sizes-list__item">
-        <a class="sizes-list__link" href="#">S</a>
-      </li>
-      <li class="sizes-list__item">
-        <a class="sizes-list__link" href="#">M</a>
-      </li>
-      <li class="sizes-list__item">
-        <a class="sizes-list__link" href="#">L</a>
-      </li>
-    </ul>
-  </div>
-  <div class="modal__footer">
-    <a class="modal__button button" href="#">Добавить</a>
+  <div class="container">
+    <h4 class="modal__header">ДОБАВИТЬ В КОРЗИНУ</h4>
+    <div class="modal__body">
+      <p class="modal__text-action">Выберите размер</p>
+      <ul class="modal__list sizes-list">
+        <li class="sizes-list__item">
+          <a class="sizes-list__link" href="#">S</a>
+        </li>
+        <li class="sizes-list__item">
+          <a class="sizes-list__link" href="#">M</a>
+        </li>
+        <li class="sizes-list__item">
+          <a class="sizes-list__link" href="#">L</a>
+        </li>
+      </ul>
+    </div>
+    <div class="modal__footer">
+      <a class="modal__button button" href="#">Добавить</a>
+    </div>
   </div>
 </div>
 </body>
